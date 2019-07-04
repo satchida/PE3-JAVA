@@ -19,6 +19,8 @@ public class RemoveVowelsTest {
     public void tearDown() throws Exception {
         obj=null;
     }
+
+    //Test cases when strings contains few vowels
     @Test
     public void VowelsRemoved()
     {
@@ -33,6 +35,7 @@ public class RemoveVowelsTest {
         assertEquals("nd pkstn cnd",result);
     }
 
+    //Test case when the string contains only vowel
     @Test
     public void VowelsRemoved3()
     {

@@ -8,6 +8,8 @@ import static org.junit.Assert.*;
 
 public class FirstAndLastDayOfWeekTest {
 
+
+    //The class is instantiated
     FirstAndLastDayOfWeek obj;
 
     @Before
@@ -19,6 +21,8 @@ public class FirstAndLastDayOfWeekTest {
     public void tearDown() throws Exception {
         obj=null;
     }
+
+    //Test cases of different weeks
     @Test
     public void FirstAndLastDayOfTheWeek()
     {

@@ -1,9 +1,13 @@
 package com.stackroute.pe3;
 
 public class ChessBoard {
+
+    //Class variables are declared
       String[][] matrix1;
         int rows,columns;
 
+
+        //In this method the matrix is initialised
         public void matrixInitialisation(int rows)
         {
             this.rows=rows;
@@ -11,6 +15,8 @@ public class ChessBoard {
             matrix1=new String[rows][columns];
 
         }
+
+        //In this method the matrix is assigned values
         public String setMatrices()
         {    int k=0; String s="";
             for(int i=0;i<rows;i++)

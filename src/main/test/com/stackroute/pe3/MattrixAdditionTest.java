@@ -18,6 +18,8 @@ public class MattrixAdditionTest {
     public void tearDown() throws Exception {
         obj=null;
     }
+
+    //Test case for different matrices getting added
     @Test
     public void addMatrices() {
         obj.MatrixInitialisation(3, 2);

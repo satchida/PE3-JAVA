@@ -19,6 +19,9 @@ public class ChessBoardTest {
         obj=null;
     }
 
+
+    //Test cases for different sizes of chess board
+
     @Test
     public void chess8X8()
     {
